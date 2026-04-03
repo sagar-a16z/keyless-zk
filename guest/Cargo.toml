@@ -10,5 +10,5 @@ compute_advice = []
 [dependencies]
 jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["guest-std", "stdout", "zk"] }
 sha2 = "0.10"
-blake2 = "0.10"
 ruint = "1.12.4"
+oauth-verify = { path = "../oauth-verify" }
