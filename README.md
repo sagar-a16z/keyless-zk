@@ -13,7 +13,7 @@ Given a JWT from an OAuth provider (Google, Apple, etc.), proves:
 
 Test data uses the same Google OAuth claims as the Aptos circuit test suite (input_gen.py): same `sub`, `aud`, `iss`, `family_name`, `iat`.
 
-## Performance (Apple M4, single-threaded, ZK/BlindFold enabled)
+## Performance (Apple M4, ZK/BlindFold enabled)
 
 | Metric | Value |
 |---|---|
